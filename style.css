@@ -5,7 +5,8 @@
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
-.width{
+
+.width {
     width: 1600px;
     margin: auto;
 }
@@ -53,7 +54,6 @@
 }
 
 /* Right-side */
-.right-container {}
 
 .banner {
     position: relative;
@@ -171,43 +171,144 @@
     padding: 25px 151px;
     padding-top: 50px;
 }
-.title-hot-deal > h2{
+
+.title-hot-deal>h2 {
     font-size: 25px;
     padding: 10px;
 }
-.hot-deal-p >p{
+
+.hot-deal-p>p {
     color: rgba(39, 39, 39, 0.60);
     padding: 10px;
     font-weight: 100;
 }
-.shop-btn > btn{
+
+.shop-btn>btn {
     margin-top: 10px;
 }
+
 /* Instragram */
 
-.instragram-container{
+.instragram-container {
     text-align: center;
     color: #272727;
     padding: 15px;
     margin-top: 10px;
 }
 
-.ins-title > h2{
+.ins-title>h2 {
     font-size: 30px;
     padding: 10px;
 }
-.ins-p > p{
+
+.ins-p>p {
     font-weight: 100;
     color: rgba(39, 39, 39, 0.60);
     padding: 10px;
     bottom: 15px;
 }
-.img-flex-layout{
+
+.img-flex-layout {
     display: flex;
     width: 1425px;
 }
-.img-box{
+
+.img-box {
     padding: 10px;
 }
 
 /* INPUT */
+.input-container {
+    background-color: #E55473;
+    background: url('./img/Rectangle\ 9.png');
+    /* background-position: center; */
+    background-size: cover;
+    /* box-shadow: 1px 2px 1px 2px #E55473; */
+    width: 1440px;
+    height: 449px;
+    bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.input-head>h2 {
+    color: #272727;
+    font-weight: 800;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.input-p>p {
+    color: #272727;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.form {
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.form [type='email'] {
+    height: 58px;
+    width: 600px;
+    border: 1px solid rgb(18, 160, 230);
+    padding: 10px 37px;
+    text-align: left;
+}
+
+.input-form {
+    padding: 147px;
+}
+
+.btn-height {
+    padding: 25px;
+    margin-left: 11px;
+}
+
+/* footer */
+
+.footer-container {
+    background-color: #111010;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    width: 1922px;
+    height: 449px;
+    justify-content: center;
+    background-image: url('./img/rose-165819_640.jpg') ;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+    
+}
+
+.footer-head > h2{
+    font-weight: 800;
+    color: #f0f0f0;
+    padding: 10px;
+    font-size: 40px;
+}
+.footer-paragraph > p{
+    font-weight: 100;
+    color: #f0f0f0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+    line-height: 25px;
+}
+
+.footer > h5{
+    font-weight: 400;
+    font-size: 16px;
+}
+.con{
+    display: flex;
+}
