@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
-
+button{
+    cursor: pointer;
+}
 .width {
     width: 1600px;
     margin: auto;
@@ -311,4 +314,34 @@
 }
 .con{
     display: flex;
+}
+/* extra... */
+.rose-info > p, span {
+    font-family: 'Gamja Flower', cursive;
+    font-size: 30px;
+    text-align: justify;
+    border: 2px solid #ff0099;
+    border-radius: 20px;
+    padding: 9px 15px 12px 8px;
+    background: #c52f2fd9;
+    color: pink;
+}
+.rose-head > h1{
+    /* display: flex; */
+    font-size: 40px;
+}
+.rose-head > img {
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: #E55473;
+    box-shadow: 12px 5px 65px 22px #E55473;
+    margin: 10px;
+    padding: 10px;
+}
+.rose-container{
+    /* display: flex; */
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
 }
