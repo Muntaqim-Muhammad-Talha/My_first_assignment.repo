@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
-button{
+
+button {
     cursor: pointer;
 }
+
 .width {
     width: 1600px;
     margin: auto;
@@ -39,7 +40,6 @@ button{
     color: rgba(39, 39, 39, 0.60);
     padding: 10px;
     text-align: left;
-    /* font-weight: 700; */
     padding: 10px;
 }
 
@@ -75,9 +75,6 @@ button{
     margin-top: 30px;
     padding: 20px;
     margin-bottom: 15px;
-    /* display: flex; */
-    /* width: 1920px;
-    height: 4867px; */
     align-items: center;
     width: 1600px;
     margin: auto;
@@ -106,48 +103,36 @@ button{
 .box1>img {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    /* width: 464px;
-    height: 538px; */
     padding: 110px 78px 0px;
     background-position: center;
     background-size: cover;
-    /* gap: 3; */
 
 }
 
 .box2>img {
     border-radius: 300px 300px 0px 0px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    /* width: 464px;
-    height: 538px; */
     padding: 110px 78px 0px;
     background-position: center;
     background-size: cover;
     width: 314px;
     height: 442px;
-    /* gap: 3; */
 
 }
 
 .box3>img {
     border-radius: 300px 300px 0px 0px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    /* width: 464px;
-    height: 538px; */
     padding: 110px 77px 0px;
     background-position: center;
     background-size: cover;
-    /* gap: 3; */
     width: 298px;
 
 }
 
 .link-1 {
-    /* color: #272727; */
     text-align: center;
-    /* font-family: Lato; */
     font-size: 24px;
-    /* font-style: normal; */
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
@@ -224,9 +209,7 @@ button{
 .input-container {
     background-color: #E55473;
     background: url('./img/Rectangle\ 9.png');
-    /* background-position: center; */
     background-size: cover;
-    /* box-shadow: 1px 2px 1px 2px #E55473; */
     width: 1440px;
     height: 449px;
     bottom: 20px;
@@ -283,23 +266,24 @@ button{
     width: 1922px;
     height: 449px;
     justify-content: center;
-    background-image: url('./img/rose-165819_640.jpg') ;
+    background-image: url('./img/rose-165819_640.jpg');
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
 
-    
+
 }
 
-.footer-head > h2{
+.footer-head>h2 {
     font-weight: 800;
     color: #f0f0f0;
     padding: 10px;
     font-size: 40px;
 }
-.footer-paragraph > p{
+
+.footer-paragraph>p {
     font-weight: 100;
     color: #f0f0f0;
     padding: 10px;
@@ -308,40 +292,57 @@ button{
     line-height: 25px;
 }
 
-.footer > h5{
+.footer>h5 {
     font-weight: 400;
     font-size: 16px;
 }
-.con{
+
+.con {
     display: flex;
 }
+
 /* extra... */
-.rose-info > p, span {
-    font-family: 'Gamja Flower', cursive;
-    font-size: 30px;
-    text-align: justify;
-    border: 2px solid #ff0099;
-    border-radius: 20px;
-    padding: 9px 15px 12px 8px;
-    background: #c52f2fd9;
-    color: pink;
-}
-.rose-head > h1{
-    /* display: flex; */
-    font-size: 40px;
-}
-.rose-head > img {
-    border-radius: 100px;
-    height: 200px;
-    width: 200px;
-    background-color: #E55473;
-    box-shadow: 12px 5px 65px 22px #E55473;
-    margin: 10px;
-    padding: 10px;
-}
-.rose-container{
-    /* display: flex; */
+
+.rose-container {
     text-align: center;
     align-items: center;
     justify-content: space-around;
+    background-image: url(./img/rose-bg.jpg), linear-gradient(rgb(0 0 0 / 26%), rgb(0 0 0 / 64%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: auto;
+    height: 550px;
+}
+
+.rose-info{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.rose-info>p,span {
+    font-size: 30px;
+    text-align: justify;
+    color: #fff;
+    font-weight: 100;
+    padding: 10px;
+    line-height: 40px;
+    padding: 20px 15px;
+}
+
+.rose-head>h1 {
+    font-size: 40px;
+    font-weight: 200;
+}
+.bg{
+    background-color: rgba(255, 255, 255, 0.499);
+    padding: 20px 18px;
+    
 }
